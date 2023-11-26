@@ -1,0 +1,169 @@
+#nav{
+    justify-content:center;
+    display: flex;
+    align-items:center;
+    gap: 77vw;
+}
+#cart{
+    justify-content:;
+    align-content: center;
+    display:flex;
+}
+#slogan{
+    top: 22vh;
+    position:absolute;
+    font-size: 60px;
+    left: 50px;
+    color: white;
+}
+#bgimg{
+    position: relative;
+    height:43vw; 
+    width:100%;
+}
+#new{
+ font-size: 20px;
+
+}
+.book1{
+    top:110vh;
+    left: 7vh;
+    font-size: 20px;
+    /* position: absolute; */
+    margin: 0;
+}
+.author{
+    left:7vh ;
+    /* position:absolute; */
+    color:grey;
+    margin: 0.8vw 0vw;
+}
+.buy{
+    display: flex;
+    /* position: absolute; */
+    top:133vh ;
+    gap: 15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-icon{
+    display: flex;
+    background-color:#76A5FE;
+    gap: 2px;
+    padding: 0.5vh;
+    border-radius: 5px;
+    margin-right: 0px;
+    color: white;
+
+}
+.allbooks{
+    display: flex;
+    left: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.allgames {
+    display: flex;
+    left: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.handmade{
+    display: flex;
+    lvscode-file://vscode-app/c:/Users/rauts/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmleft: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot{
+    background-color: black;
+    height: 150px;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    gap: 1000px;
+    justify-content: space-around;
+    padding: 35px;
+    
+
+}
+.krishti{
+    /* position: absolute; */
+    color: whitesmoke;
+    justify-content: space-around;
+    /* gap: 100px; */
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.mleft{
+    margin-left: 1.5vw;
+}
+.kidz-world{
+    height:30px; 
+    width:130px;
+}
+.cart{
+    height: 30px;
+}
+.f-cart{
+    text-align: center;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.k-img{
+    border-radius: 50% 50% 50%;
+    height:100px; 
+}
+/* .cart{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+} */
+/* .class{
+    height: 16px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+@media all and (min-width:350px) and (max-width:850px){
+    #slogan{
+        top: 95px;
+        font-size: 5vw;
+    }
+    .kidz-world{
+        height: 15px;
+        width:97px ;
+    }
+    #nav{
+        gap: 26vw;
+    }
+    .cart{
+        height: 16px;
+    }
+    .foot{
+        background-color: black;
+        height: 150px;
+        position: relative;
+        margin-top: 100px;
+        display: flex;
+        gap: 64px;
+        justify-content: space-around;
+        padding: 35px;
+}
+.k-img{
+    border-radius: 50% 50% 50%;
+    height:70px; 
+    margin-top: 27px;
+}
+.b-img{
+    font-size: 26px;
+}
+.img-bottom{
+    margin-bottom: 40px;
+}
+#new{
+    font-size: 9px;
+}
